@@ -1,3 +1,5 @@
+@import url("reset.css");
+
 .header_container {
     background: url(../images/building.png) center / cover  no-repeat;
 }
