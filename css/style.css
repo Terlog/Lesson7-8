@@ -1,21 +1,97 @@
 @import url("reset.css");
 
+body {
+    font-style: normal;
+}
+/* header */
+header {
+    font-family: "Poppins", Verdana, sans-serif;
+    background: url(../images/building.png) center / cover no-repeat;
+}
 .header_container {
-    background: url(../images/building.png) center / cover  no-repeat;
+   
+    margin-bottom:50px;
+    max-width: 1270px;
+padding:336px 15px 94px;
+margin: 0 auto 45px;
 }
-.header_wrapper {
+.header_wrapper{
+
 }
-.text {
+.header_list-item+.header_list-item{
+    margin-top: 15px;
+}
+.header_text{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.67;
+    color: #E5E5E5;
+}
+.header_text h1 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.6;
+    color: #f8f9fa;
+}
+/* main */
+main{
+    font-family: 'Inter';
 }
 .main_container {
+    max-width: 1270px;
+padding: 45px 110px 65px 50px;
+margin: 0 auto;
 }
 .main_wrapper {
+    max-width: 1100px;
+
 }
-.main_list {
+.main_title{
+font-weight: 400;
+font-size: 26px;
+line-height: 1.07;
+color: #212B36;
+margin-bottom: 45px;
 }
-.list_item {
+.main_text{
+    font-weight: 700;
+font-size: 16px;
+line-height: 1;
+color: #637381;
+
 }
-.main_text {
+.main_list-one .one_list-item{
+    display: inline-block;
+}
+.one_list-item{
+    max-width: 310px;
+    margin-right: 85px;
+    margin-bottom: 60px;
+}
+.one_list-item:nth-child(3n){
+    margin-right: 0;
+}
+.list_item1{
+    background: url(../images/ellipse.png) 0 10px / 8px no-repeat;
+    padding-left: 14px;
+    padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .list_item2{
+        background: url(../images/checkmark-circle.png) 0 3px / 20px no-repeat;
+        padding-left: 25px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .list_item3{
+        background: url(../images/checkmark-circle2.png)  0 3px / 20px no-repeat;
+        padding-left: 25px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+/* footer */
+footer{
+    font-family: 'Inter'; 
 }
 .footer_container {
 }

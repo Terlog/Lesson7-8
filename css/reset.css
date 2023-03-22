@@ -42,3 +42,6 @@ button {
 	cursor: pointer;
 	background-color: inherit;
 }
+ul,ol{
+	font-size: 0;
+}
