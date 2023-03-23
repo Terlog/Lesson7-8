@@ -7,12 +7,13 @@ body {
 header {
     font-family: "Poppins", Verdana, sans-serif;
     background: url(../images/building.png) center / cover no-repeat;
+margin-bottom: 45px;
 }
 .header_container {
     margin-bottom: 50px;
     max-width: 1270px;
     padding: 336px 15px 94px;
-    margin: 0 auto 45px;
+    margin: 0 auto ;
 }
 /* .header_wrapper {
 } */
@@ -25,7 +26,7 @@ header {
     line-height: 1.67;
     color: #e5e5e5;
 }
-.header_text h1 {
+h1 .header_text  {
     font-size: 25px;
     font-weight: 700;
     line-height: 1.6;
@@ -91,18 +92,23 @@ main {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+.list_item4{
+    margin-left: 10px;
+}
 .list_item4::before {
     content: url(../images/cross-circle.png);
-    margin-left: -10px;
+    margin-left: -25px;
     padding-right: 5px;
     vertical-align: -3px;
 }
-
+.list_item5{
+    margin-left: -10px;
+}
 .list_item5::before {
     content: "";
     display: inline-block;
     background: url(../images/arrow-right.svg) 0px 1px no-repeat;
-    margin-left: -35px;
+    margin-left: -27px;
     width: 20px;
     margin-right: 10px;
     height: 20px;
@@ -112,11 +118,14 @@ main {
 .list_item5:hover::before {
     transform: rotate(270deg) scale(1.5);
 }
+.list_item6{
+    margin-left:30px;
+}
 .list_item6::before {
     content: "";
     display: inline-block;
     background: url(../images/star.svg) 0px 1px no-repeat;
-    margin-left: -5px;
+    margin-left: -30px;
     width: 20px;
     margin-right: 10px;
     height: 20px;
@@ -155,14 +164,20 @@ footer {
         rgba(244, 247, 255, 0.08727240896358546) 100%
     );
 }
-.footer_container {
-    background: url(../images/speaker.png) 70% 50% no-repeat;
+.footer_wraper {
+    
+}
+.footer_container{
+    max-width: 1440px;
+    max-height: 560px;
+    margin: 0 auto;
+    background: url(../images/speaker.png) 85% 50% no-repeat;
 }
 .footer_wraper {
     max-width: 1170px;
     padding-top: 145px;
     padding-bottom: 145px;
-    margin: 0 auto;
+   
 }
 .footer_wraper-one {
     max-width: 570px;
@@ -192,7 +207,7 @@ footer {
     margin-bottom: 35px;
 }
 
-.footer_buttom {
+.footer_btn {
     display: inline-block;
     position: relative;
     text-align: center;
@@ -205,6 +220,12 @@ footer {
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
+}
+.footer_btn:hover{
+    background: #11663e;
+    color: rgba(218, 164, 27, 0.808);
+    border: 5px solid goldenrod;
+    box-shadow: 0 5px 8px 0 #212529
 }
 /* .footer_img {
     display: inline-block;
